@@ -503,3 +503,10 @@ sys_pipe(void)
   }
   return 0;
 }
+
+uint64
+sys_OsmosisDump(void)
+{
+  printf("Calling OsmosisDump system call\n");
+  return 0;
+}
